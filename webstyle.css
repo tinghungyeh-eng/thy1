@@ -87,7 +87,7 @@ body {
 .right-fourth {
     width: 500px;
     display: flex;
-    flex-direction: column; /* 改成直排每個 photo-item */
+    flex-direction: column; 
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
@@ -95,8 +95,8 @@ body {
 
 .photo-item {
     display: flex;
-    flex-direction: column; /* 照片在上，文字在下 */
-    align-items: center;    /* 水平置中 */
+    flex-direction: column; 
+    align-items: center;   
     gap: 10px;
 }
 
@@ -116,10 +116,10 @@ body {
 }
 
 .photo-text {
-    font-size: 14px;      /* 文字變小 */
-    line-height: 1.5;     /* 行距整齊 */
-    text-align: center;   /* 文字置中 */
-    margin-top: 5px;      /* 照片與文字間距 */
+    font-size: 14px;     
+    line-height: 1.5;     
+    text-align: center;   
+    margin-top: 5px;      
     word-wrap: break-word;
 }
 
@@ -144,7 +144,7 @@ html, body {
 }
 
 .t1 {
-    height: auto; /* 改成 auto，適應文字高度 */
+    height: auto; 
     width: 400px;
 }
 
@@ -162,3 +162,4 @@ html, body {
     padding: 15px 0;       
     z-index: 100;          
 }
+
